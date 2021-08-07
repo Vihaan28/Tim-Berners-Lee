@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#intro {
+    background: linear-gradient(#26e9f0 0%, #138d91 100%);
+    width: 100%;
+    height: 100%;
+    z-index: 9px;
+}
+
+#intropic {
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 150px;
+    border-style: ridge;
+    border-color: darkorange;
+    border-width: 5px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#name {
+    font-family:serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+#bio {
+    height: 100%;
+    width: 100%;
+}
+
+#hello {
+    font-family: serif;
+    color: darkorange;
+}
+
+.line {
+    height: 5px;
+    width: 50px ;
+    background-color: black;
+    margin: 8px auto;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    color: white;
+    z-index: 10px;
+    position:fixed;
+    font-size: 20px;
+    background-color:black;
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+.links {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-family: 'Yellowtail', cursive;
+    
+}
+
+.links:hover{
+    font-style: italic;
+    font-size: 25px;
+    
+}
+
+.articals{
+    font-family: fantasy;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    color: darkorange;
+    
+    
+}
+
+.articals:hover{
+    color: chocolate;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#videos{
+    background-color: cyan;
+    height: 151%;
+}
+
+#tagv{
+    padding-top: 10px;
+}
+
+#writings{
+    height: 50%;
+    
+}
+
+#contact a{
+    display: inline;
+    font-size: 15px;
+    color:aliceblue;
+    
+} 
+.end{
+background-color:firebrick;
+}
+
+#contact iframe{
+width: 100%;
+}
+
+
